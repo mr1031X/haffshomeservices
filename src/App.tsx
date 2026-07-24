@@ -1011,9 +1011,6 @@ export default function App() {
           <div className="relative w-full mb-8 overflow-hidden rounded-lg" style={{ aspectRatio: '16/9', backgroundColor: '#e8e5df' }}>
             <AreaMapCanvas />
           </div>
-          <p className="text-center text-xs mb-10" style={{ color: 'var(--color-muted)' }}>
-            Click and drag to explore. Cities shown include our primary service areas.
-          </p>
 
           {/* City Pills */}
           <div className="flex flex-wrap gap-3 justify-center">
