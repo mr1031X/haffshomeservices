@@ -1053,8 +1053,6 @@ export default function App() {
               className="fb-page"
               data-href="https://www.facebook.com/profile.php?id=61579202682595"
               data-tabs="timeline"
-              data-width="600"
-              data-height="500"
               data-small-header="false"
               data-adapt-container-width="true"
               data-hide-cover="false"

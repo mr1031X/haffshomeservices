@@ -91,78 +91,79 @@
   padding-bottom: 0.1em;
 }
 
-/* ============================
-   BUTTON STYLES
-   ============================ */
-.btn-primary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 12px 28px;
-  background-color: var(--color-primary);
-  color: #ffffff;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 9999px;
-  transition: all 200ms ease;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-}
+@layer components {
+  /* ============================
+     BUTTON STYLES
+     ============================ */
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 12px 28px;
+    background-color: var(--color-primary);
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 9999px;
+    transition: all 200ms ease;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
 
-.btn-primary:hover {
-  background-color: var(--color-primary-dark);
-  transform: scale(1.02);
-}
+  .btn-primary:hover {
+    background-color: var(--color-primary-dark);
+    transform: scale(1.02);
+  }
 
-.btn-outline {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 12px 28px;
-  background-color: transparent;
-  color: #ffffff;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 9999px;
-  border: 1px solid #ffffff;
-  transition: all 200ms ease;
-  cursor: pointer;
-  text-decoration: none;
-}
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 12px 28px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid #ffffff;
+    transition: all 200ms ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
 
-.btn-outline:hover {
-  background-color: #ffffff;
-  color: #000000;
-}
+  .btn-outline:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
 
-.btn-outline-dark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 12px 28px;
-  background-color: transparent;
-  color: #ffffff;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 9999px;
-  border: 1px solid #ffffff;
-  transition: all 200ms ease;
-  cursor: pointer;
-  text-decoration: none;
-}
+  .btn-outline-dark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 12px 28px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid #ffffff;
+    transition: all 200ms ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
 
-.btn-outline-dark:hover {
-  background-color: #ffffff;
-  color: var(--color-primary);
+  .btn-outline-dark:hover {
+    background-color: #ffffff;
+    color: var(--color-primary);
+  }
 }
-
 /* ============================
    CARD HOVER STATES
    ============================ */
