@@ -605,7 +605,7 @@ export default function App() {
           <a
             href="#"
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-            className="text-lg font-medium"
+            className={`text-lg font-medium ${navScrolled ? 'inline' : 'hidden md:inline'}`}
             style={{ color: navScrolled ? '#000000' : '#ffffff', fontFamily: 'Inter, sans-serif' }}
           >
             Haff's Home Services
