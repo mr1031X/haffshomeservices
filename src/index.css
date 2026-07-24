@@ -416,3 +416,10 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ============================
+   FACEBOOK PAGE PLUGIN CENTERING
+   ============================ */
+.fb_iframe_widget_fluid {
+  display: contents !important;
+}

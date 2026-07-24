@@ -639,7 +639,7 @@ export default function App() {
           <button
             className="md:hidden p-2"
             onClick={() => setMobileOpen(!mobileOpen)}
-            style={{ color: navScrolled ? '#000000' : '#ffffff' }}
+            style={{ color: mobileOpen || navScrolled ? '#000000' : '#ffffff' }}
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -671,7 +671,7 @@ export default function App() {
           ═══════════════════════════════════════ */}
       <section
         ref={heroRef}
-        className="relative min-h-screen flex items-center justify-center overflow-hidden"
+        className="relative min-h-dvh flex items-center justify-center overflow-hidden"
       >
         {/* Background Image with Ken Burns */}
         <div className="absolute inset-0 z-0">
@@ -1048,11 +1048,12 @@ export default function App() {
           </div>
 
           {/* Facebook Page Plugin */}
-          <div className="mt-12 max-w-[600px] mx-auto">
+          <div className="mt-12 w-full -mx-4 sm:-mx-6 md:mx-auto md:max-w-[500px] flex justify-center">
             <div
-              className="fb-page"
+              className="fb-page w-full"
               data-href="https://www.facebook.com/profile.php?id=61579202682595"
               data-tabs="timeline"
+              data-height="500"
               data-small-header="false"
               data-adapt-container-width="true"
               data-hide-cover="false"
