@@ -592,7 +592,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: 'var(--color-bg)' }}>
+    <div className="min-h-screen overflow-x-hidden" style={{ backgroundColor: 'var(--color-bg)' }}>
       {/* ═══════════════════════════════════════
           NAVIGATION
           ═══════════════════════════════════════ */}
