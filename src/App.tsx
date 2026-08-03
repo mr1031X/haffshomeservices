@@ -557,7 +557,7 @@ export default function App() {
     e.preventDefault();
     setFormSubmitting(true);
     try {
-      const response = await fetch('https://formspree.io/f/mpqvyvvb', {
+      const response = await fetch('https://formspree.io/f/xvzeeykd', {
         method: 'POST',
         headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -1050,7 +1050,7 @@ export default function App() {
               className="fb-page w-full"
               data-href="https://www.facebook.com/profile.php?id=61579202682595"
               data-tabs="timeline"
-              data-height="500"
+              data-height="900"
               data-small-header="false"
               data-adapt-container-width="true"
               data-hide-cover="false"
@@ -1124,7 +1124,7 @@ export default function App() {
           {/* CTA */}
           <div className="text-center">
             <a
-              href="https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID"
+              href="https://g.page/r/CQCbWIQjVo6tEBM/review"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex mb-4"
@@ -1133,7 +1133,7 @@ export default function App() {
               Leave a Google Review
             </a>
             <p className="text-sm">
-              <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="link-underline" style={{ color: 'var(--color-muted)' }}>
+              <a href="https://g.page/r/CQCbWIQjVo6tEBM/" target="_blank" rel="noopener noreferrer" className="link-underline" style={{ color: 'var(--color-muted)' }}>
                 Read More Reviews
               </a>
             </p>
