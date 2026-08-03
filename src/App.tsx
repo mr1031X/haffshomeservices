@@ -1203,7 +1203,7 @@ export default function App() {
 
             {/* Social */}
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61579202682595"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-animate inline-flex items-center gap-2"
@@ -1377,6 +1377,18 @@ export default function App() {
               Licensed &amp; Insured
             </p>
           </div>
+
+          <p className="text-xs text-center mt-4" style={{ color: 'var(--color-muted)' }}>
+            Site designed by{" "}
+            <a
+              href="https://haloblossom.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-70 transition-opacity underline"
+            >
+              Halo Blossom
+            </a>
+          </p>
         </div>
       </footer>
     </div>
